@@ -1,0 +1,42 @@
+descript
+{
+version,1
+}
+
+surface0
+{
+	element0,overlay,surface0.png,0,0
+
+	//Talk
+	animation1.interval,talk,4
+	animation1.pattern0,alternativestart,(2,3,4)
+	
+	animation2.interval,never
+	animation2.pattern0,overlay,101,20,0,0
+	animation2.pattern1,overlay,-1,100,0,0
+
+	animation3.interval,never
+	animation3.pattern0,overlay,102,20,0,0
+	animation3.pattern1,overlay,-1,100,0,0
+
+	animation4.interval,never
+	animation4.pattern0,overlay,101,20,0,0
+	animation4.pattern1,overlay,-1,100,0,0
+	animation4.pattern2,overlay,102,80,0,0
+	animation4.pattern3,overlay,-1,100,0,0
+
+	//blink
+	animation5.interval,random,4
+	animation5.pattern0,overlay,-1,100,0,0
+	animation5.pattern1,overlay,103,25,0,0
+	animation5.pattern2,overlay,104,25,0,0
+	animation5.pattern3,overlay,103,25,0,0
+	animation5.pattern4,overlay,-1,25,0,0
+	
+
+}
+
+surface10
+{
+element0,overlay,surface10.png,0,0
+}

@@ -1,0 +1,6 @@
+Charset,UTF-8
+type,shell
+name,Bishoujo Hydrate
+directory,Bishoujo_Hydrate_yy
+accept,Hydrate
+
